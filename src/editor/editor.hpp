@@ -2,14 +2,17 @@
 #define EDITOR_HPP
 
 #include <cppurses/cppurses.hpp>
+#include "widgets/save_area/save_area.hpp"
 
-namespace MDN {
-  class Editor : cppurses::Widget {
-    public:
-      Editor();
-      cppurses::Textbox &textbox{this->make_child<cppurses::Textbox>()};
+namespace mdnotes {
+  namespace editor {
+    class Editor : cppurses::layout::Vertical {
+      public:
+        Editor();
+        cppurses::Textbox &textbox{this->make_child<cppurses::Textbox>()};
 
-  };
+    };
+  }
 }
 
 #endif
