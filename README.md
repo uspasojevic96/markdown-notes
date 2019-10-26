@@ -1,2 +1,2 @@
 # markdown-notes
-## NO!
+## In development, will update README some time later
