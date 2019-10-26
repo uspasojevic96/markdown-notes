@@ -1,2 +1,4 @@
 .ccls-cache
 .*.swp
+compile_commands.json
+Debug

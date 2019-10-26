@@ -15,3 +15,4 @@ cd Debug
 cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=YES
 cd ..
 ccls -index=.
+ln -s Debug/compile_commands.json ./
