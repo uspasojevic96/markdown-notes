@@ -9,8 +9,6 @@ namespace mdnotes {
     class Editor : cppurses::layout::Vertical {
       public:
         Editor();
-        cppurses::Textbox &textbox{this->make_child<cppurses::Textbox>()};
-
     };
   }
 }
