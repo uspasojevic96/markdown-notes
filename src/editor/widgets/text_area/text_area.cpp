@@ -5,7 +5,8 @@ mdnotes::editor::widgets::Text_area::Text_area() {
 }
 
 void mdnotes::editor::widgets::Text_area::initialize() {
-  textbox.brush.set_background(cppurses::Color::Dark_gray);
+  textbox.brush.set_background(cppurses::Color::Green);
   textbox.border.enable();
   // change segments?
 }
+
